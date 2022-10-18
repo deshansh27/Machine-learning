@@ -32,5 +32,5 @@ points(kmeans.re$centers[,c("Sepal.Length","Sepal.Width")],col=1:3,pch=8,cex=3)
 #Visualizing clusters
 y_kmeans<-kmeans.re$cluster
 clusplot(iris_set[,c("Sepal.Length","Sepal.Width")],y_kmeans,lines=2,shade=TRUE,color=TRUE,plotchar = F,span = TRUE,
-main=paste("cluster of iris_set - 20MID0072"),xlab="Sepal.Length",ylab="Sepal.Width")
+main=paste(xlab="Sepal.Length",ylab="Sepal.Width")
 
